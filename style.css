@@ -65,7 +65,7 @@ header{
     }
     a:hover{
         background-color: white;
-        color: orangered;
+        color: #ff4500;
     }
     .draai{
         background-color: orangered;
@@ -118,6 +118,7 @@ header{
     background-color: white;
     display: grid;
     width: max-content;
+    padding-left: 16px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 32px;
