@@ -35,9 +35,10 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: sticky;
+    position: fixed;
     scroll-behavior: smooth;
     background-color: white;
+    width: 100%;
 
 }
 .fullheader{
@@ -86,6 +87,7 @@ header{
 /* section 1 */
 .section1 {
     height: 100vh;
+    padding-top: 100px ;
 }
 .row1{
     display: flex;
@@ -160,14 +162,14 @@ text{
     
     width:700px;
     height:700px;
-    top:0;
+    top:100px;
     left:0;
 }
 #question{
     position: absolute;
     width:400px;
     height:500px;
-    top:150px;
+    top:170px;
     left:950px;
 }
 #question h1{
