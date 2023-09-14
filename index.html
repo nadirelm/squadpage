@@ -10,14 +10,28 @@
     <header>
         <div class="fullheader">
             <h1 href="index.html"><span style="color:orangered">Squad</span>page</h1>
-                <nav>
+                <nav class="desktopmenu">
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a class="draai" href="wheel.html">Spin the wheel!</a></li>
                     </ul>
                 </nav>
+                <div class="dropdown">
+                    <button class="drop">➕</button>
+                        <div class="dropdown-field">
+                            <nav class="mobile-menu">
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a class="draai" href="wheel.html">Spin the wheel!</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                
+                </div>
         </div>
     </header>
 
@@ -94,6 +108,7 @@
     <footer>
        
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
     <script src="script.js"></script>
 </body>
 </html>
