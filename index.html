@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="fullheader">
-            <h1 href="index.html"><span style="color:orangered">Squad</span>page</h1>
+            <h1 href="index.html"><span style="color:orangered;  font-family: Arial;">Squad</span>page</h1>
                 <nav class="desktopmenu">
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -18,20 +18,21 @@
                         <li><a class="draai" href="wheel.html">Spin the wheel!</a></li>
                     </ul>
                 </nav>
-                <div class="dropdown">
-                    <button class="drop">➕</button>
-                        <div class="dropdown-field">
-                            <nav class="mobile-menu">
-                                <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a class="draai" href="wheel.html">Spin the wheel!</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                
-                </div>
+                <section class="top-nav">
+                    <!-- <h1><span style="color:orangered">Squad</span>page</h1> -->
+            
+
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+              </label>
+                <ul class="menu">
+                  <li>Home</li>
+                  <li>About</li>
+                  <li>Services</li>
+                  <li><a class="draai2" href="wheel.html">Spin the wheel!</a></li>
+                </ul>
+              </section>
         </div>
     </header>
 
