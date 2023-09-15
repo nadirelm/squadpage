@@ -99,10 +99,10 @@ header{
 
         /***************************************************************
                                                                     *
-        mobile view
+        mobile view, dropdown menu.
                                                                     *
         ****************************************************************/
-                                                                        
+
         @media only screen and (max-width: 420px) {
         /* h1 styling */
             .top-nav{
@@ -345,6 +345,7 @@ header{
     grid-column-gap: 32px;
     grid-row-gap: 32px;
 }
+    /* Dit is een responsive section voor de grid */
     @media only screen and (max-width: 26em)  {
         .fullgrid{
             padding-left: 0px;
@@ -444,6 +445,7 @@ text {
     top: 75%;
     transform: translate(0, -90%);
 }
+
 @media only screen and (max-width: 600px) {
     body {
         background-color: lightblue;
