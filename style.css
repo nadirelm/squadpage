@@ -335,6 +335,7 @@ header{
 }
 
 /* grid style */
+/* full grid heeft een width van max-content, zo houf hij altijd de goede width */
 .fullgrid{
     background-color: white;
     display: grid;
