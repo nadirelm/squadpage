@@ -397,7 +397,7 @@ header{
 }
 
 /* WHEEL PAGE */
-/* wheel */
+ /* wheel */
 .bg {
     background: url(casino.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -447,9 +447,9 @@ text {
 }
 
 @media only screen and (max-width: 600px) {
-    body {
+    /* body {
         background-color: lightblue;
-    }
+    } */
     #chart {
         position: absolute;
         width: 450px;
@@ -458,4 +458,4 @@ text {
         left: 50%;
         transform: translate(-46%,-68%) scale(0.9);
     }
-}
+} 
