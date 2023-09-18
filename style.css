@@ -41,7 +41,11 @@ header{
     -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
 }
+.fullheader span{
+       color: orangered;
+       font-family: Arial, Helvetica, sans-serif;
 
+}
 .fullheader{
     display: flex;
     flex-direction: row;
