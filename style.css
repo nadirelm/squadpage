@@ -458,6 +458,22 @@ text {
     transform: translate(0, -90%);
 }
 
+.header{
+    width: 90%;
+    margin-top: 30px;
+    border: 3px solid #ff4500 ;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    background-image: url("img/cartoon-colorful-panorama-of-spring-summer-beautiful-nature-green-grasslands-meadow-with-mountains-on-horizon-background-summer-mountain-landscape-dawn-over-the-valley-illustration-free-vector.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header img{
+    margin: 10px;
+}
+
 @media only screen and (max-width: 600px) {
     /* body {
         background-color: lightblue;
