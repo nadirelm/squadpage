@@ -94,7 +94,7 @@ header{
         Desktop view
                                                                     *
         ****************************************************************/
-        @media only screen and (min-width: 441px) {
+        @media only screen and (min-width: 741px) {
 
              .top-nav{
                 display: none !important;
@@ -107,7 +107,7 @@ header{
                                                                     *
         ****************************************************************/
 
-        @media only screen and (max-width: 420px) {
+        @media only screen and (max-width: 740px) {
         /* h1 styling */
             .top-nav{
                 display: block;
@@ -351,11 +351,11 @@ header{
     grid-row-gap: 32px;
 }
     /* Dit is een responsive section voor de grid */
-    @media only screen and (max-width: 26em)  {
+    @media only screen and (max-width: 420px)  {
         .fullgrid{
             padding-left: 0px;
             padding-right: 0px;
-            grid-template-columns: repeat(1, 1fr) !important;
+            grid-template-columns: repeat(1, 1fr);
         }
         .row2{
             justify-content: center;
@@ -372,11 +372,11 @@ header{
             margin-bottom: 10px;
         }
     }
-    @media only screen and (max-width: 52em)  {
+    @media only screen and (max-width: 821px) and (min-width: 430px)  {
         .fullgrid{
             padding-left: 0px;
             padding-right: 0px;
-            grid-template-columns: repeat(2, 2fr) !important;
+            grid-template-columns: repeat(2, 1fr) ;
         }
     }
 /* grid layout */
